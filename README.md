@@ -4,7 +4,7 @@ A modern, data-driven personal portfolio dashboard template built with React and
 
 ## ℹ️ Project Info
 
-**Demo URL**: [https://awesomeui-portfolio.lovable.app](https://awesomeui-portfolio.lovable.app)
+**Demo URL**: [https://owenleezy.github.io/awesome-personal-portfolio/](https://owenleezy.github.io/awesome-personal-portfolio/)
 
 ## 📸 Screenshots
 
