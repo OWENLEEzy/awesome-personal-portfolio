@@ -5,8 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // 修改这里：显式指定仓库名，解决 GitHub Pages 的子路径问题
-  base: mode === 'production' ? '/awesome-personal-portfolio/' : '/',
+  base: mode === 'production' ? './' : '/',
   server: {
     host: "0.0.0.0",
     port: 8080,
