@@ -1,0 +1,53 @@
+{
+  "header": {
+    "title": "Contact",
+    "description": "Let's connect and do something interesting"
+  },
+  "intro": {
+    "title": "Get in Touch",
+    "content": "[A welcoming message inviting people to reach out to you.]"
+  },
+  "direct": [
+    {
+      "id": "email",
+      "label": "[your.email@example.com]",
+      "subLabel": "Email",
+      "href": "mailto:your.email@example.com",
+      "iconKey": "mail"
+    },
+    {
+      "id": "phone",
+      "label": "[+1 234 567 8900]",
+      "subLabel": "Tel",
+      "href": "tel:+12345678900",
+      "iconKey": "phone"
+    },
+    {
+      "id": "location",
+      "label": "[City, Country]",
+      "subLabel": "Available for new work anytime",
+      "href": null,
+      "iconKey": "mapPin"
+    }
+  ],
+  "socials": [
+    {
+      "id": "github",
+      "label": "GitHub",
+      "href": "https://github.com/[your-username]",
+      "iconKey": "github"
+    },
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/[your-username]/",
+      "iconKey": "linkedin"
+    },
+    {
+      "id": "twitter",
+      "label": "Twitter/X",
+      "href": "https://twitter.com/[your-username]",
+      "iconKey": "twitter"
+    }
+  ]
+}

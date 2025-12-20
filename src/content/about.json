@@ -1,0 +1,44 @@
+{
+    "meta": {
+        "title": "[Your Website Title]",
+        "description": "[Your Website Description]"
+    },
+    "hero": {
+        "headline": "[Your Professional Headline]",
+        "availability": "Open to Opportunities",
+        "name": "[Your Name]",
+        "role": "[Your Current Role / Title]",
+        "description": "[A brief description of your background, skills, and what you do. Focus on your unique value proposition.]",
+        "cta": {
+            "primaryLabel": "Full Resume",
+            "primaryHref": "/resume",
+            "secondaryLabel": "Contact Me",
+            "secondaryHref": "/contact"
+        }
+    },
+    "stats": [
+        {
+            "id": "stat-1",
+            "value": "10+",
+            "label": "[Stat Label 1]"
+        },
+        {
+            "id": "stat-2",
+            "value": "5",
+            "label": "[Stat Label 2]"
+        },
+        {
+            "id": "stat-3",
+            "value": "100%",
+            "label": "[Stat Label 3]"
+        },
+        {
+            "id": "stat-4",
+            "value": "3",
+            "label": "[Stat Label 4]"
+        }
+    ],
+    "footer": {
+        "copyright": "© 2024 [Your Name]"
+    }
+}

@@ -1,0 +1,83 @@
+{
+    "header": {
+        "title": "Resume",
+        "subtitle": "[Your Resume Subtitle or Summary Statement]"
+    },
+    "summary": {
+        "title": "Profile Summary",
+        "content": "[A professional summary describing your background, experience, key skills, and career goals. This is your elevator pitch.]"
+    },
+    "experience": [
+        {
+            "company": "[Company Name]",
+            "title": "[Job Title]",
+            "period": "[Start Date] - [End Date]",
+            "points": [
+                "[Key effective point about your role and what you accomplished]",
+                "[Another key achievement or responsibility]",
+                "[Quantifiable result or impact]",
+                "[Skill utilized or technology used]"
+            ]
+        },
+        {
+            "company": "[Company Name]",
+            "title": "[Job Title]",
+            "period": "[Start Date] - [End Date]",
+            "points": [
+                "[Key effective point about your role and what you accomplished]",
+                "[Another key achievement or responsibility]",
+                "[Quantifiable result or impact]"
+            ]
+        },
+        {
+            "company": "[Previous Company]",
+            "title": "[Previous Job Title]",
+            "period": "[Start Date] - [End Date]",
+            "points": [
+                "[Key effective point about your role and what you accomplished]",
+                "[Another key achievement or responsibility]"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "school": "[University Name]",
+            "degree": "[Degree Name]",
+            "period": "[Start Year] - [End Year]",
+            "details": [
+                "GPA: [Your GPA]",
+                "[Award or Honor]"
+            ],
+            "logo": "/src/content/photo/university-logo.png"
+        },
+        {
+            "school": "[University Name]",
+            "degree": "[Degree Name]",
+            "period": "[Start Year] - [End Year]",
+            "details": [
+                "GPA: [Your GPA]",
+                "[Award or Honor]",
+                "[Another Achievement]"
+            ],
+            "logo": "/src/content/photo/university-logo.png"
+        }
+    ],
+    "skills": {
+        "Tools": {
+            "Development": [
+                "Frontend (React, TypeScript, Tailwind)",
+                "Backend (Node.js, Python, Supabase)",
+                "Mobile (React Native, Flutter)"
+            ],
+            "AI & Workflow": [
+                "LLMs (GPT-4, Claude, Gemini)",
+                "Automation (n8n, Zapier, Make)",
+                "AI Tools (Midjourney, Stable Diffusion)"
+            ]
+        },
+        "other": [
+            "Languages (English, Mandarin, Spanish)",
+            "Soft Skills (Project Management, Public Speaking)"
+        ]
+    }
+}

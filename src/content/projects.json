@@ -1,0 +1,75 @@
+[
+    {
+        "slug": "project-one-slug",
+        "title": "Project Title One",
+        "description": "A brief, one-sentence description of the project.",
+        "tags": [
+            "Tag 1",
+            "Tag 2",
+            "Tag 3"
+        ],
+        "details": "[Detailed description of the project. Explain the problem, your solution, the technologies used, and the impact. This can be a longer paragraph.]",
+        "stats": {
+            "Metric 1": "Value",
+            "Metric 2": "Value",
+            "Metric 3": "Value"
+        },
+        "keyLearnings": "[What did you learn from this project?]",
+        "workflowTitle": "Key Workflows",
+        "workflows": [
+            {
+                "name": "Workflow Step 1",
+                "description": "Description of this part of the project workflow.",
+                "tools": [
+                    "Tool A",
+                    "Tool B"
+                ],
+                "icon": "database"
+            },
+            {
+                "name": "Workflow Step 2",
+                "description": "Description of another part of the workflow.",
+                "tools": [
+                    "Tool C",
+                    "Tool D"
+                ],
+                "icon": "bar-chart"
+            }
+        ]
+    },
+    {
+        "slug": "project-two-slug",
+        "title": "Project Title Two",
+        "description": "Another project description.",
+        "tags": [
+            "Tag A",
+            "Tag B"
+        ],
+        "details": "[Detailed description of Project Two.]",
+        "stats": {
+            "Metric A": "Value",
+            "Metric B": "Value"
+        },
+        "keyLearnings": "[Key learnings from Project Two.]",
+        "workflowTitle": "System Architecture",
+        "workflows": [
+            {
+                "name": "Component A",
+                "description": "Description of component A.",
+                "tools": [
+                    "Tool 1",
+                    "Tool 2"
+                ],
+                "icon": "smartphone"
+            },
+            {
+                "name": "Component B",
+                "description": "Description of component B.",
+                "tools": [
+                    "Tool 3"
+                ],
+                "icon": "server"
+            }
+        ]
+    }
+]
