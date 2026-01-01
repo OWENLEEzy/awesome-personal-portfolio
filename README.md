@@ -2,10 +2,8 @@
 
 A modern, data-driven personal portfolio dashboard template built with React and Tailwind CSS.
 
-## 📸 Screenshots
-![Mainpage Preview](assets/mainpage.png)
-![Projectpage Preview](assets/projectpage.png)
-![Resumepage Preview](assets/resumepage.png)
+## 📸 Demo
+Demo page link: [https://owenleezy.github.io/awesome-personal-portfolio/](https://owenleezy.github.io/awesome-personal-portfolio/)
 
 ## 💻 Getting Started
 
@@ -15,10 +13,10 @@ Follow these steps to get running:
 
 ```sh
 # Step 1: Clone the repository
-git clone <YOUR_GIT_URL>
+git clone https://github.com/owenleezy/awesome-personal-portfolio.git
 
 # Step 2: Navigate to the project directory
-cd my-personal-portfolio
+cd awesome-personal-portfolio
 
 # Step 3: Install dependencies
 npm install
