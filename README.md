@@ -40,26 +40,35 @@ This project is built using modern web technologies:
 
 ## 📂 Project Structure
 
-- `src/content`: JSON configuration files. **EDIT THESE files to customize your portfolio.**
-- `src/lib`: Utility functions and type definitions (`content.ts`).
-- `src/components`: Reusable UI components.
-- `src/pages`: Main page components (`ProjectDetail.tsx`, `Resume.tsx`, etc.).
+| Folder | Description |
+| :--- | :--- |
+| `src/content` | **JSON configuration files.** This is where you customize your resume data. |
+| `public` | Static assets that are copied directly to the build folder (e.g., `favicon.ico`, `robots.txt`). |
+| `dist` | **Distribution folder.** This is generated when you run `npm run build`. It contains the production-ready minified code. |
+| `src/lib` | Utility functions and content loaders. |
+| `src/components` | UI components built with shadcn/ui. |
 
 ## ⚙️ How to Customize
 
-The website content is fully data-driven via JSON configuration files in `src/content`. To customize your portfolio, edit the following files:
+This template is fully data-driven. You don't need to touch much React code to get started. Just edit the JSON files in `src/content`:
 
-- **`src/content/about.json`**: Update your profile introduction, hero section, key statistics, and **website metadata (title/description)**.
-- **`src/content/contact.json`**: Update your contact details (email, phone, location) and social media links.
-- **`src/content/projects.json`**: Add your portfolio projects, including descriptions, workflows, and stats.
-- **`src/content/resume.json`**: Fill in your professional experience, education history, and skills.
-- **`src/content/photo/`**: Directory for storing image assets (e.g., university logos) referenced in `resume.json`.
-- **`src/content/resume/`**: Directory for storing your PDF resumes (e.g., `resume(en).pdf`, `resume(ch).pdf`).
+1.  **`about.json`**: Hero section text, profile summary, and SEO metadata (page title/description).
+2.  **`contact.json`**: Your email, phone, social links (LinkedIn, GitHub, etc.).
+3.  **`projects.json`**: Your portfolio projects. Each project can have stats, tags, and detailed "workload" steps.
+4.  **`resume.json`**: Your work experience, education, and skills.
+5.  **`photo/` & `resume/`**: Drop your profile pictures and PDF resumes here and reference them in the JSON files.
 
-## ✨ Key Features
-- **Data-Driven Architecture**: Complete separation of content (JSON) and code (React).
-- **Rich Project Views**: Detailed project pages with "Workflow" cards and impact statistics.
-- **Dynamic Routing**: Automatic slug-based routing for all project pages.
+## 🚀 Deployment (GitHub Pages)
+
+This project includes a GitHub Action to automatically deploy your site.
+
+1.  **Fork** this repository.
+2.  Go to **Settings > Pages**.
+3.  Under **Build and deployment > Source**, select **GitHub Actions**.
+4.  When you push to the `main` branch, it will automatically build and deploy.
+
+> [!TIP]
+> **Fixing the "White Screen" issue**: The `base` path is automatically calculated in the GitHub Action using the `VITE_BASE_PATH` environment variable. This ensures that assets are correctly loaded even if your repository is named something else.
 
 ## 🤖 AI Development Tools
 
