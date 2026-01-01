@@ -1,0 +1,70 @@
+# Node
+node_modules/
+
+# Vite / build outputs
+/dist/
+/.vite/
+/build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files (local credentials)
+.env
+.env.*.local
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Bun
+.bun/
+.bunfig/
+
+# Testing and coverage
+/coverage/
+.nyc_output/
+coverage-final.json
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc caches
+.cache/
+.parcel-cache/
+/.parcel-cache/
+
+# Storybook
+storybook-static/
+
+# Local history
+.history/
+
+# Build artifacts
+dist-*/
+
+# Vim swap files
+*.swp
+
+# JetBrains specific
+out/
+
+# Optional: ignore lockfiles only if you don't want them in the repo
+# (Bun lockfile bun.lockb is normally committed; keep it tracked)
+
+# Secrets
+secrets.json
+
+# Node REPL history
+.node_repl_history
