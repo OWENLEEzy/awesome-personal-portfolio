@@ -54,7 +54,27 @@ This template is fully data-driven. You don't need to touch much React code to g
 2.  **`contact.json`**: Your email, phone, social links (LinkedIn, GitHub, etc.).
 3.  **`projects.json`**: Your portfolio projects. Each project can have stats, tags, and detailed "workload" steps.
 4.  **`resume.json`**: Your work experience, education, and skills.
-5.  **`photo/` & `resume/`**: Drop your profile pictures and PDF resumes here and reference them in the JSON files.
+5.  **`photo/` & `resume/`**: Drop your profile pictures and PDF resumes here.
+
+### 🖼️ Managing Assets (Images & PDFs)
+
+To ensure your images and resume documents display correctly both locally and after deployment, follow these path rules:
+
+#### **Photos & Logos**
+- **Location**: Store them in `src/content/photo/`.
+- **JSON Reference**: Use the full path from the root, for example:
+  ```json
+  "logo": "/src/content/photo/your-logo.png"
+  ```
+- **Why?**: This allows Vite to locate the assets during development. (Note: For high-reliability production builds, you can also place images in the `public/` folder and reference them as `"/your-logo.png"`).
+
+#### **PDF Resumes**
+- **Location**: Store them in `src/content/resume/`.
+- **Filename**: Keep the filenames as `resume(ch).pdf` and `resume(en).pdf` to match the imports in `Resume.tsx`.
+- **Customization**: If you want to use different filenames, you'll need to update the import statements at the top of `src/pages/Resume.tsx`:
+  ```typescript
+  import resumeChPdf from "@/content/resume/your-new-name.pdf";
+  ```
 
 ## 🚀 Deployment (GitHub Pages)
 
@@ -68,9 +88,19 @@ This project includes a GitHub Action to automatically deploy your site.
 > [!TIP]
 > **Fixing the "White Screen" issue**: The `base` path is automatically calculated in the GitHub Action using the `VITE_BASE_PATH` environment variable. This ensures that assets are correctly loaded even if your repository is named something else.
 
-## 🤖 AI Development Tools
+## 🛠️ Local Build & Preview
 
-This project utilizes AI for rapid iteration:
+Before deploying, you can test the production build locally to ensure everything looks correct:
+
+```sh
+# Build the project
+npm run build
+
+# Preview the built site
+npm run preview
+```
+
+## 🤖 This is a vibe coding learning project,feel free to use it as a template for your own portfolio! (MIT license)
 - **Lovable**: For initial UI generation.
 - **Shitch**: For futher UI design.
 - **Antigravity**: For advanced code development.

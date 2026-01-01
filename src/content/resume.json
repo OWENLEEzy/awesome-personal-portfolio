@@ -48,7 +48,7 @@
                 "GPA: [Your GPA]",
                 "[Award or Honor]"
             ],
-            "logo": "/src/content/photo/university-logo.png"
+            "logo": "/src/content/photo/sjtu.png"
         },
         {
             "school": "[University Name]",
@@ -59,7 +59,7 @@
                 "[Award or Honor]",
                 "[Another Achievement]"
             ],
-            "logo": "/src/content/photo/university-logo.png"
+            "logo": "/src/content/photo/sjtu.png"
         }
     ],
     "skills": {
